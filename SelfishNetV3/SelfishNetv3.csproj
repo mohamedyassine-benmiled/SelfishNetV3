@@ -113,6 +113,12 @@
     <Reference Include="ExpandableGridView">
       <HintPath>..\LIB\ExpandableGridView.dll</HintPath>
     </Reference>
+    <Reference Include="PacketDotNet">
+      <HintPath>bin\Debug\SelfishNetv3.exe\PacketDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="PcapNet">
+      <HintPath>bin\Debug\SelfishNetv3.exe\PcapNet.dll</HintPath>
+    </Reference>
     <Reference Include="PcapNet, Version=1.0.2632.24367, Culture=neutral, processorArchitecture=x86">
       <HintPath>..\LIB\PcapNet.dll</HintPath>
     </Reference>
@@ -215,6 +221,9 @@
     <None Include="Resources\toolStripButton4.Image.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="WanPacket.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\172.png" />
     <None Include="Resources\167.png" />
     <None Include="Resources\176.png" />
@@ -228,8 +237,26 @@
     <None Include="bin\Debug\SelfishNetv3.exe\SN2_result.ico" />
     <None Include="bin\Debug\SelfishNetv3.exe\SN-3_result.ico" />
     <None Include="bin\x86\Release\SN2_result.ico" />
+    <Content Include="DataGridViewNumericUpDownElements.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ExpandableGridView.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="nov0caina.ico" />
     <None Include="Resources\SN2_result.ico" />
+    <Content Include="npf.sys">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="npptools.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packet.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PcapNet.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="this.Ico" />
   </ItemGroup>
   <ItemGroup>
